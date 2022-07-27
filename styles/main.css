@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500;700&family=Roboto+Slab:wght@400;700&family=Roboto:wght@400;500;700;900&display=swap');
+
 :root {
     --primary-color-green: #40c7a3;
 }
@@ -66,30 +68,26 @@ header {
     display: flex;
     width: 100%;
     height: calc(100vh - 173px);
-    align-items: flex-start;
-    justify-content: center;
     background-image: url('https://i.postimg.cc/yxZvKTjH/Cover.png');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    /* background-attachment: fixed; */
-}
-
-/* .main-container__elements-container {
-    width: 50%;
-    height: 50%;
+    align-items: center;
+    justify-content: center;
 }
 
 .main-container__elements-container {
+    height: 50%;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
     align-items: center;
+    justify-content: space-evenly;
 }
 
 .main-container__elements-container__title {
+    font-family: 'Roboto mono', monospace;
     letter-spacing: 1rem;
-    font-size: 5.5rem;
+    font-size: 3rem;
     text-align: center;
     color: white;
 }
@@ -100,4 +98,5 @@ header {
     font-weight: bold;
     padding: 2rem;
     border: 1px solid white;
-} */
+    cursor: pointer;
+}
